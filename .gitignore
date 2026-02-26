@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Env and secrets (never commit tokens)
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Logs and temp
+*.log
+.cache/
+tmp/
+temp/

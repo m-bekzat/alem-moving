@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alem Moving Services — Los Angeles Moving Company</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="header-contact">
+        <a href="tel:+13235550123" class="header-contact-link">
+          <svg class="header-contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>(323) 555-0123</span>
+        </a>
+        <span class="header-contact-sep" aria-hidden="true">|</span>
+        <span class="header-address">
+          <svg class="header-contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Los Angeles, CA
+        </span>
+      </div>
+      <a href="#" class="logo">
+        <img src="assets/logo.svg" alt="Alem Moving Services" width="360" height="210">
+      </a>
+      <a href="mailto:info@alemmoving.com" class="header-email-btn">
+        <svg class="header-email-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email Us
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <h1 class="hero-title">Moving You Can Trust.<br>Service You'll Appreciate.</h1>
+        <p class="hero-desc">Professional movers in Los Angeles. Transparent pricing, careful handling, and a team you can rely on.</p>
+      </div>
+    </section>
+
+    <section class="form-section" id="contact">
+      <div class="container form-wrapper">
+        <div class="form-intro">
+          <h2 class="form-heading">Request a quote</h2>
+          <p class="form-text">Share your details and we’ll call to schedule a time that works for you.</p>
+          <p class="form-city">Serving Los Angeles and the surrounding area.</p>
+        </div>
+        <form class="contact-form" id="contact-form" action="#" method="post">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+1 (___) ___-____">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Move date, from / to, size of move…"></textarea>
+          </div>
+          <button type="submit" class="btn">Submit request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Alem Moving Services</p>
+      <p class="footer-copyright">© 2026 Alem Moving Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="25%" stop-color="#3d6a9e"/>
+      <stop offset="50%" stop-color="#5b8fc4"/>
+      <stop offset="75%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#b8d4e8"/>
+    </linearGradient>
+    <linearGradient id="hills1" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#2d5016"/>
+      <stop offset="100%" stop-color="#4a7c23"/>
+    </linearGradient>
+    <linearGradient id="hills2" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#1e3d0f"/>
+      <stop offset="100%" stop-color="#3d6b1f"/>
+    </linearGradient>
+    <linearGradient id="hills3" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#152a0a"/>
+      <stop offset="100%" stop-color="#2d5016"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.75" cy="0.25" r="0.4">
+      <stop offset="0%" stop-color="#fff5d6" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#ffd54f" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffb300" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <ellipse cx="1200" cy="220" rx="280" ry="180" fill="url(#sun)"/>
+  <!-- Hollywood-style hills -->
+  <path d="M0 900V520 Q200 380 400 420 T800 380 T1200 420 T1600 350V900Z" fill="url(#hills3)" opacity="0.95"/>
+  <path d="M0 900V580 Q250 450 500 500 T1000 440 T1600 500V900Z" fill="url(#hills2)" opacity="0.9"/>
+  <path d="M0 900V620 Q300 520 600 560 T1200 520 T1600 580V900Z" fill="url(#hills1)"/>
+  <!-- Distant city silhouette (LA) -->
+  <path d="M0 620v280h80v-120h60v120h50v-180h70v180h60v-220h90v220h55v-160h65v160h70v-200h80v200h60v-140h75v140h65v-180h85v180h70v-240h90v240h80v-160h70v160h65v-200h75v200h80v-120h90v120H1600V620H0z" fill="#0f1419" opacity="0.85"/>
+</svg>
